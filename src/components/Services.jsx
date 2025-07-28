@@ -28,7 +28,7 @@ const Services = () => {
 
   return (
     <section id="services" className="py-20 px-6 bg-white text-center">
-      <h2 className="text-3xl font-semibold text-gold mb-4">Our Services</h2>
+      <h2 className="text-3xl font-semibold text-gold font-[cursive] mb-4">Our Services</h2>
       <p className="max-w-2xl mx-auto text-gray-700 mb-10">
         From elegant weddings to intimate baby showers, LUV Decorations brings your event to life with personalized decor and timeless style.
       </p>
