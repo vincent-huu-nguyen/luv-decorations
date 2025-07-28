@@ -21,7 +21,7 @@ const Navbar = () => {
                         href="tel:+11234567890"
                         className="border-2 border-gold text-gold px-4 py-2 rounded-full hover:bg-gold hover:text-white transition font-semibold text-sm md:text-base"
                     >
-                        📞 Call Now
+                        Call Now
                     </a>
                 </div>
             </div>
