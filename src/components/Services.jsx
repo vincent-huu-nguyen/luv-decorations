@@ -35,11 +35,11 @@ const Services = () => {
             <p className="max-w-2xl mx-auto text-gray-700 mb-10">
                 From elegant weddings to intimate baby showers, LUV Decorations brings your event to life with personalized decor and timeless style.
             </p>
-            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto bg-white/50 backdrop-blur-md">
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
                 {services.map((service, index) => (
                     <div
                         key={index}
-                        className="border border-gold rounded-xl p-6 shadow hover:shadow-lg transition"
+                        className="border-2 border-gold rounded-xl p-6 shadow hover:shadow-lg transition bg-white/50 backdrop-blur-md"
                     >
                         <h3 className="text-xl font-semibold text-gold mb-2">{service.title}</h3>
                         <p className="text-gray-700">{service.description}</p>
