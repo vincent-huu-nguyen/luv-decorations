@@ -7,7 +7,7 @@ const Hero = () => {
             className="h-screen flex items-center justify-center bg-cover bg-center text-center px-6"
             style={{ backgroundImage: `url(${decorExample})` }}
         >
-            <div className="bg-white/70 backdrop-blur-md p-8 rounded-xl shadow-lg max-w-xl mx-auto border-2 border-gold">
+            <div className="bg-white/80 backdrop-blur-md p-8 rounded-xl shadow-lg max-w-xl mx-auto border-4 border-gold">
                 <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gold font-[cursive]">
                     Elegant Decor for Unforgettable Moments
                 </h2>

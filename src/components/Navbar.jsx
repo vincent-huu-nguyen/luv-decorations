@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 w-[95%] md:w-[90%] bg-white/50 backdrop-blur-xl shadow-2xl rounded-full z-50 transition-all">
+        <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 w-[95%] md:w-[90%] bg-white/80 backdrop-blur-xl shadow-2xl rounded-full z-50 transition-all">
             <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
                 {/* Logo */}
                 <h1 className="text-2xl font-bold text-gold font-cursive">LUV Decorations</h1>
